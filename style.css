@@ -1,0 +1,23 @@
+.containter {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+
+}
+
+#restaurants {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 220px);
+    justify-content: center;
+    column-gap: 10px;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.restaurant {
+    background-color: rgb(238, 178, 178);
+    border-radius: 15px;
+    padding: 10px;
+}
