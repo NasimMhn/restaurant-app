@@ -9,7 +9,7 @@
 
 #restaurants {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 220px);
+    grid-template-columns: repeat(1, 220px);
     justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
@@ -20,4 +20,16 @@
     background-color: rgb(238, 178, 178);
     border-radius: 15px;
     padding: 10px;
+}
+
+@media only screen and (min-width: 500px) and (max-width:799px) {
+    #restaurants {
+        grid-template-columns: repeat(2, 220px);
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    #restaurants {
+        grid-template-columns: repeat(auto-fit, 220px);
+    }
 }
