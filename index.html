@@ -11,16 +11,35 @@
 </head>
 
 <body>
+    <header>
+        <select id="select-city" onChange="getCuisines()">
+            <option value="" disabled selected>Select city</option>
+            <option value="61">London</option>
+            <option value="280">New York</option>
+            <option value="306">San Fransisco</option>
+            <option value="89">Toronto</option>
+        </select>
+
+
+        <select id="select-cuisine" onChange="activateBtn()">
+            <option value="" disabled selected>Select cuisine</option>
+        </select>
+
+        <button id="search-btn" onclick="getRestaurants()"> Search </button>
+
+    </header>
 
     <div class="containter">
-        <h2> Greek restaurants in <span id="city"></span></h2>
+        <h2 id="city-and-cuisine"></h2>
         <section id="restaurants">
 
         </section>
     </div>
 
-    <script src="index.js">
-    </script>
+    <script src="search.js"></script>
+    <script src="restaurants.js"></script>
+    <!-- <script src="index.js"></script> -->
+
 </body>
 
 </html>

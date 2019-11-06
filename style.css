@@ -9,7 +9,7 @@
 
 #restaurants {
     display: grid;
-    grid-template-columns: repeat(1, 220px);
+    grid-template-rows: repeat(1, auto);
     justify-content: center;
     column-gap: 10px;
     row-gap: 10px;
@@ -18,18 +18,93 @@
 
 .restaurant {
     background-color: rgb(238, 178, 178);
+    display: flex;
+    flex-direction: row;
     border-radius: 15px;
     padding: 10px;
+
 }
+
+.review-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.rating {
+    width: 40px;
+    padding: 10px;
+    border-left: rgb(255, 255, 255) solid 1px;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.review {
+    border-radius: 30px;
+    padding: 10px 0px;
+    color: white;
+}
+
+header {
+    height: 50px;
+    background-color: rgb(151, 151, 252);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumb {
+    width: 200px;
+}
+
+.thumb img {
+    width: 200px;
+    height: 200px;
+}
+
+.info {
+    padding: 10px;
+    width: 250px;
+}
+
+.info h3 {
+    display: inline-block;
+}
+
+.price-class {
+    margin-left: 4px;
+}
+
+
+#select-city,
+#select-cuisine {
+    font-size: 20px;
+    margin: 0px 10px;
+    height: 30px;
+    width: 180px;
+    border-radius: 4px;
+}
+
+#search-btn {
+    font-size: 20px;
+    margin: 0px 10px;
+    height: 30px;
+    width: 120px;
+    border-radius: 4px;
+}
+
 
 @media only screen and (min-width: 500px) and (max-width:799px) {
     #restaurants {
-        grid-template-columns: repeat(2, 220px);
+        grid-template-rows: repeat(2, 220px);
     }
 }
 
 @media only screen and (min-width: 800px) {
     #restaurants {
-        grid-template-columns: repeat(auto-fit, 220px);
+        grid-template-rows: repeat(auto-fit, 220px);
     }
 }
