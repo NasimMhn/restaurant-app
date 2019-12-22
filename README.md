@@ -1,7 +1,7 @@
 # Project 7 @ Technigo Bootcamp - Build a food review website
 
 
-This week we practiced our JavaScript skills and API, using [Zomato API](https://developers.zomato.com/api)and also working as a team using Github.  
+This week we practiced our JavaScript skills and API, using [Zomato API](https://developers.zomato.com/api) and also working as a team using Github.  
 
 ## To learn this week 🧠
 
