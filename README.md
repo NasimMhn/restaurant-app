@@ -1,21 +1,29 @@
-# Project 7 @ Technigo Bootcamp - Build a food review website
+### A Food Review Website
 
+This is a food review website, where you can search for cuisine resturants in five different cities. The Zomato API is used in this project. (https://developers.zomato.com/api). 
 
-This week we practiced our JavaScript skills and API, using [Zomato API](https://developers.zomato.com/api) and also working as a team using Github.  
-
-## To learn this week 🧠
+## Learning objectives 🧠
 
 - How to work in teams on a project using Github
 - How to use headers with fetch()
 - How to use API's to fetch data
 
-### Tech  💻
+## Technologies used 💻
 
 - HTML
 - CSS 
 - JavaScript 
+- API
 
-View live: [https://restaurant-by-nasim.netlify.com](https://restaurant-by-nasim.netlify.com/).
+## Deployed version 🎯
+
+https://restaurant-by-nasim.netlify.com/
+
+<br>
+<br>
+
+<p> Nasim Mahzoun 2019</p>
+
 
 
 
